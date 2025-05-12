@@ -11,8 +11,3 @@ unction firstWord(s) {
 console.log(firstWord("see and stop"));
 console.log(firstWord("Hello World"));
 
-
-// Do not change the code below
-
-const s = prompt("Enter String:");
-alert(firstWord(s));
