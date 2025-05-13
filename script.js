@@ -1,11 +1,13 @@
-unction firstWord(s) {
-  if (!s) return ""; 
+function firstWord(s) {
 
+    if (!s) return ""; 
+    
     const spaceIndex = s.indexOf(" ");
+    
     if (spaceIndex === -1) {
         return s; 
     }
-
+    
     return s.substring(0, spaceIndex);
 }
 console.log(firstWord("see and stop"));
